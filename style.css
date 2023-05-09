@@ -1,0 +1,169 @@
+/*  BACKGROUND  */
+
+#top {
+    background-image:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url(../images/bg.jpg);
+    background-size: 100% 100%;
+    background-position: cover;
+    height: 650px;
+    background-attachment: fixed;
+}
+
+
+/* NAVBAR  */
+
+.navbar-brand {
+    font-weight: bold;
+}
+
+.list {
+    text-align: center;
+}
+
+
+/* TOP CONTENT */
+
+.top-content {
+    padding-top: 200px;
+}
+
+.top-content h2 {
+    font-size: 42px;
+}
+
+.top-content h1 {
+    font-size: 72px;
+    font-weight: bold;
+}
+
+
+/*  TOP CONTENT : BUTTON */
+.Subscribe {
+    border-radius: 10px;
+}
+
+
+/*   SERVICES  */
+
+#services {
+    padding: 100px 0 60px;
+}
+
+#services h1 {
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.rowsettings {
+    margin: 80px auto;
+}
+
+
+
+/*   SERVICES : IMAGES  */
+
+.imgsetting {
+    background-color: yellow;
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+}
+i {
+    color: black;
+    margin-top: 25px;
+}
+
+
+
+
+#services .rowsettings div p {
+    color: #8f8f8f;
+    padding: 10px;
+}
+
+.rowsettings h3 {
+    margin-top: 30px;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+
+/* PORTFOLIO */
+
+#portfolio {
+    padding: 100px 0 50px;
+    margin-bottom: 10px;
+}
+
+#portfolio h1 {
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.card {
+    margin-top: 40px;
+}
+
+
+
+/*  TEAM */
+
+#team {
+    margin: 100px 0 50px;
+}
+
+#team h1 {
+    font-size: 50px;
+    font-weight: bold;
+}
+
+#team p {
+    color: #8f8f8f;
+}
+
+
+/* TEAM : IMAGE */
+
+.team-img {
+    width: 50%;
+    margin: 60px 0 20px;
+}
+
+/* FOOTER  */
+
+#footer {
+    height: 100px;
+    align-items: center;
+    display: flex;
+}
+
+#footer h6 {
+    margin: auto;
+}
+
+
+/*   MEDIA QUERRIERS*/
+
+
+@media (max-width: 768px) {
+
+    .top-content h2 {
+        font-size: 32px;
+    }
+    
+    .top-content h1 {
+        font-size: 52px;
+        font-weight: bold;
+    }
+}
+
+@media (max-width: 575px) {
+
+    .top-content h2 {
+        font-size: 22px;
+    }
+    
+    .top-content h1 {
+        font-size: 32px;
+        font-weight: bold;
+    }
+}
